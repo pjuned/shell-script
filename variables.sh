@@ -11,4 +11,4 @@ echo "$PERSON1 : I am fine $PERSON2"
 
 DATE=$(date)
 
-echo "date & time is $(DATE)"
+echo "date & time is" $(DATE)
