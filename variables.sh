@@ -21,6 +21,6 @@ echo "username is $USERNAME"
 
 FRUITS=(orange, banana, grapes)
 
-echo "first value : $Fruits[0]"
-echo "first value : $Fruits[1]"
-echo "first value : $Fruits[2]"
+echo "first value : ${Fruits[0]}"
+echo "first value : ${Fruits[1]}"
+echo "first value : ${Fruits[2]}"
