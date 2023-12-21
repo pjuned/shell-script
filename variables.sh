@@ -19,7 +19,7 @@ read -s USERNAME # the value entered will be auto attached to USERNAME variable
 
 echo "username is $USERNAME"
 
-FRUITS=(orange, banana, grapes)
+FRUITS=("orange" "banana" "grapes")
 
 echo "first value : ${Fruits[0]}"
 echo "first value : ${Fruits[1]}"
