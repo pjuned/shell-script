@@ -12,3 +12,9 @@ echo "$PERSON1 : I am fine $PERSON2"
 DATE=$(date)
 
 echo " the date & time is $DATE"
+
+echo "Enter username "
+
+read -s USERNAME # the value entered will be auto attached to USERNAME variable
+
+echo "username is $USERNAME"
