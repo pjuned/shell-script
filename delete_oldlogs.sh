@@ -15,4 +15,4 @@ do
     # Process each line of the output here
     echo "Deleting fiel: $line"
     rm -rf $line
-done <<< ht$FILES_TO_DELETE
+done <<< $FILES_TO_DELETE
