@@ -1,6 +1,8 @@
 #!/bin/bash
 
-SOURCE_DIR="/tmp/shellscript-logs"
+#SOURCE_DIR="/tmp/shellscript-logs"
+SOURCE_DIR="/tmp/"
+
 
 if [ ! -d $SOURCE_DIR ] # denotes opposite
 then
