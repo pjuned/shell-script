@@ -4,13 +4,19 @@ echo "script name : $0"
 
 ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
+
+R=\e[31m
+G=\e[32m
+Y=\e[33m
+N=\e[0m
+
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
 VALIDATE(){
     if [ $1 -ne 0 ]
 then 
-    echo "ERROR : $2  is failed"
+    echo "ERROR : $2  is $R failed $N"
 else
-    echo "$2 is successful"
+    echo "$2 is $G successful $N"
 fi
 
 }
