@@ -16,7 +16,7 @@ VALIDATE(){
 then 
     echo "ERROR : $2  is $R failed $N"
 else
-    echo "$2 is G successful N"
+    echo "$2 is $G successful "
 fi
 
 }
