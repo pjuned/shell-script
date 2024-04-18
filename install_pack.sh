@@ -17,8 +17,7 @@ VALIDATE() {
     else
         echo -e  "$2 is..$G Success $N "
     fi
-
-}
+            }
 if [ $ID -ne 0 ]
 then
     echo -e "$R you are not a root user $N"
