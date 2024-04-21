@@ -1,6 +1,6 @@
 #! /bin/bash
 
-set -x
+
 
 SOURCE_DIR="/tmp/shellscipt-logs/"
 
