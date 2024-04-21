@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -x
+
 SOURCE_DIR="/tmp/shellscript-logs/"
 
 R="\e[31m"
