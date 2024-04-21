@@ -2,7 +2,7 @@
 
 
 
-SOURCE_DIR="/tmp/shellscipt-logs"
+SOURCE_DIR="/tmp/shellscript-logs"
 
 R="\e[31m"
 G="\e[32m"
