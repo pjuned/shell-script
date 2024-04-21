@@ -2,7 +2,7 @@
 
 set -x
 
-SOURCE_DIR="/tmp/shellscript-logs/"
+SOURCE_DIR="/tmp/shellscipt-logs/"
 
 R="\e[31m"
 G="\e[32m"
